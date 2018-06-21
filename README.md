@@ -1,8 +1,8 @@
 # Abstract View
-This program will take in a set of numbers. Multiple numbers can be put on the same line separated with spaces. The user can then select any row of numbers that they entered and compare them to see the frequency of each number. All numbers are saved to a text file.
+The program will take in a set of numbers. Multiple numbers can be put on the same line separated with spaces. The user can then select any row of numbers that they entered and compare them to see the frequency of each number in the set(s).
 
 # Full View
-This program will take in a set of numbers that can either have one or multiple numbers on each line separated with spaces. As of right now entering in more than one space between numbers will cause an error. Anything that's not a number is not allowed to be entered. Decimals are not allowed which is fine because this program didn't need to include decimals. When the user enters in a number and the input is valid the new number will be saved to a file and added to the JList.
+This program will take in a set of numbers that can either have one or multiple numbers on each line separated with spaces. As of right now entering in more than one space between numbers will cause an error. Anything that's not a number is not valid. Decimals are not allowed which is fine because this program didn't need to include decimals. When the user enters in a number and the input is valid the new number will be saved to a file and added to the JList.
 
 The user will have the option to compare any numbers from the list that are highlighted. Nothing will happen if nothing is highlighted. Once compared another list will hold the frequency of each number and another list will hold all the rows that were selected. The list that holds the selected rows will additionally have numbers that may be highlighted green if the given number appeared in the line above.
 
@@ -25,13 +25,13 @@ I might consider taking out the green highlights as this doesn't seem to be as u
 As of right now I'm not actually sure about this decision. Ill keep this in unless I find a stronger reason to take this out.
 
 The right list seems to be confusing to the user as they might not completely understand why the
-numbers are being sent from the left to right. Possibly with the middle list also add headers in each list.
+numbers are being sent from the left to right. Possibly with the middle list also I should add some headers in each list.
 
 Get rid of the border lines in the middle list.
 
-Organize arguments so they aren't all placed in sporadically.
+Organize arguments so they aren't all placed in sporadically. (Forgot what this ment)
 
-I've noticed that the TF_Hold_Nums clears the input in the box not matter what. Maybe change that
+I've noticed that the TF_Hold_Nums clears the input in the box no matter what. Maybe change that
 because the user might get annoyed if the input keeps clearing and they accidentally clicked out of the
 box. Same with the TF_Range fields maybe do something about that. This is not a critical fix but
 something to consider.
